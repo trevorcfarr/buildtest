@@ -7,7 +7,7 @@
 # MAGIC_URL = "iscb.junolive.co"
 # SESSION_URL = f"{BASE_URL}live/breakouts/build_test"
 # USERNAME = "trevor@junolive.co"
-# PASSWORD = "p00pstain"
+# PASSWORD = "xxxxx"
 
 # Trevor's Playground
 BASE_URL = "https://trevor.junolive.co/main/"
@@ -17,14 +17,14 @@ MAINSTAGE_URL = f"{BASE_URL}live/mainstage/ptstwo"
 PANEL_URL = f"{BASE_URL}live/panels/ptsone"
 FEED_URL = f"{BASE_URL}connect/feed"
 USERNAME = "trevor@junolive.co"
-PASSWORD = "p00pstain"
+PASSWORD = "xxxxx"
 
 # IASLC TTLC23
 # BASE_URL = "https://ttlc23-iaslc.junolive.co/live/"
 # MAGIC_URL = "ttlc23-iaslc.junolive.co"
 # SESSION_URL = f"{BASE_URL}breakouts/build_test"
 # USERNAME = "trevor@junolive.co"
-# PASSWORD = "p00pstain"
+# PASSWORD = "xxxxx"
 
 
 

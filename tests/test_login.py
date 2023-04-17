@@ -3,7 +3,7 @@ from time import sleep
 import helpers
 from actions import nav, interact
 from driver import driver
-from settings import USERNAME, PASSWORD, BASE_URL, FEED_URL
+from settings import USERNAME, PASSWORD, BASE_URL
 
 
 def test_login_and_out():
