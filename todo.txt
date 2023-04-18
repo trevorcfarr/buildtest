@@ -1,8 +1,10 @@
-interpret
+# TODO General logging, Django Front End
+# TODO remove/rework sleep
+# TODO integrate with Slack Webhook to message build passed
+# TODO reach out to DevOps and look over scripts to push builds with AWS
+# TODO possible dropdown front end of AWS environments
+# TODO create decorator that says "beginning of test, initialize driver, run test, destroy driver once tests completed" this way each test is fresh
 
-Create a boiler plate in django for my python project
-
-Here's a basic boilerplate for a Django project:
 
 python
 Copy code
@@ -82,9 +84,6 @@ def home(request):
 This is just a basic structure, you can add or remove settings, apps, urls, models and views according to your project's requirements.
 
 
-
-
-trevorcfarr@gmail.com
 I'd like to incorporate my own python project into this django boiler plate. How would I do that?
 To incorporate your own Python project into the Django boilerplate, you'll need to create a Django app within your Django project to house your project's code.
 
@@ -131,9 +130,6 @@ Finally, run the development server and access the project at http://localhost:8
 This should help you incorporate your own Python project into the Django boilerplate. Note that this is a general guide and the specifics of integrating your project may vary based on the complexity of your project.
 
 
-
-
-trevorcfarr@gmail.com
 My python project is using Selenium to automate tasks. Should i use django or FastAPI to create the front end for this python project?
 Whether you should use Django or FastAPI for the front-end of your Python project depends on your specific use case and requirements.
 
@@ -146,13 +142,8 @@ In your case, since your project is using Selenium for automation tasks, it is l
 Ultimately, the choice between Django and FastAPI will depend on the specific requirements of your project, so I would recommend carefully considering your needs and evaluating both options before making a decision.
 
 
-
-
-trevorcfarr@gmail.com
 Is there any disadvantage using Django vs FastAPI for this Selenium Python project?
 Yes, both Django and FastAPI have some disadvantages when used with a Selenium Python project. Here are some of the disadvantages of each:
-
-Django:
 
 Performance: Django can be slower compared to FastAPI for certain types of applications due to its monolithic design and heavy use of middleware.
 Complexity: Django can be more complex to set up and use compared to FastAPI, especially for smaller projects.
@@ -165,9 +156,6 @@ Learning curve: FastAPI's syntax and concepts may be unfamiliar to some develope
 So, in conclusion, Django might be a better choice if you need a lot of built-in functionality and a larger community, but it can be slower and more complex to use. FastAPI is a good choice if you need a fast and flexible solution that is easy to scale, but it may have a steeper learning curve and limited built-in functionality. It's important to consider the specific needs of your project and make a decision that balances the trade-offs of each framework.
 
 
-
-
-trevorcfarr@gmail.com
 I will use Django. I want to Django to use a SSO with a Google account in order to access. Once the user is logged in and verified there will be only one page. At the top there will be a h1 header and below that a dropdown menu. Can you write this code for me?
 Sure, here is a sample code to implement Single Sign-On (SSO) with Google in Django and display a single page with a header and dropdown menu. This code assumes you have already set up your Google OAuth2 client ID and secret and integrated it into your Django project.
 
