@@ -40,11 +40,11 @@ PASSWORD = "xxxxx"
 # MAGIC_URL = "alexis.junolive.co"
 # SESSION_URL = f"{BASE_URL}live/breakouts/build_test"
 # USERNAME = "trevor@junolive.co"
-# PASSWORD = "p00pstain"
+# PASSWORD = "xxxxx"
 
 # Chase's Playground
 # BASE_URL = "https://chase.junolive.co/main/"
 # MAGIC_URL = "chase.junolive.co"
 # SESSION_URL = f"{BASE_URL}live/breakouts/build_test"
 # USERNAME = "trevor@junolive.co"
-# PASSWORD = "p00pstain"
+# PASSWORD = "xxxxx"
